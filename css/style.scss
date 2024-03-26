@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:regular);
+@import url(https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700);
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: #F2F2F2;
+
+
+
+}
+
+.card {
+    width: 920px;
+    height: 500px;
+    background: #E28625;
+    border-radius: 8px;
+    display: flex;
+    // padding: 48px;
+
+
+}
+.card__items {
+}
+
+.card__item-1 {
+    width: 307px;
+    height: 500px;
+    padding: 48px;
+    
+}
+
+.card__item-2 {
+    width: 307px;
+    height: 500px;
+    background: #006971;
+    border-radius: 8px;
+    padding: 48px;
+}
+
+.card__item-3 {
+    width: 307px;
+    height: 500px;
+    background: #004140;
+    border-radius: 0px 8px 8px 0px;
+    padding: 48px;
+}
+.item {
+
+		&__circle-1 {
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.269);
+            border-radius: 50%;
+            position: relative;
+            margin-bottom: 35px;
+		}
+
+		&__title {
+            font-family: 'Big Shoulders Display';
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+
+		}
+
+		&__text {
+            font-size: 15px;
+            line-height: 25px;
+            color: rgba(255, 255, 255, 0.726);
+            margin-bottom: 83px;
+		}
+
+		&__button-1 {
+            width: 146px;
+            height: 48px;
+            background: #F2F2F2;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            line-height: 25px;
+            color: #E28625;
+		}
+        &__button-2 {
+            width: 146px;
+            height: 48px;
+            background: #F2F2F2;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            line-height: 25px;
+            color: #006971;
+		}
+        &__button-3{
+            width: 146px;
+            height: 48px;
+            background: #F2F2F2;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            line-height: 25px;
+            color: #004140;
+		}
+        &__button-1:hover, &__button-2:hover, &__button-3:hover{
+            border: 2px solid #FFFFFF;
+            background-color: transparent;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+		&__circle-2 {
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.269);
+            border-radius: 50%;
+            position: relative;
+            margin-bottom: 35px;
+		}
+
+		&__circle3 {
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.269);
+            border-radius: 50%;
+            position: relative;
+            margin-bottom: 35px;
+		}
+}
+.car-1 {
+    position: absolute;
+    top: 11px;
+    left: 20px;
+}
+.car-2 {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+.car-3 {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+
+
+
+@media(max-width:450px){
+    .box{
+        max-width: 375px;
+        height: 1502px;
+    }
+    .card {
+        width: 327px;
+        height: 1326px;
+        display: block;
+
+    
+    }
+    
+    .card__item-1 {
+        width: 327px;
+        height: 442px;
+
+    }
+    
+    .card__item-2 {
+        width: 327px;
+        height: 442px;
+    }
+    
+    .card__item-3 {
+        width: 327px;
+        height: 442px;
+        border-radius: 0px 0px 8px 8px;
+    }
+    .item {
+    
+
+
+            &__text {
+                margin-bottom: 25px;
+            }
+    
+
+    }
+
+
+    
+    
+}
+
+
